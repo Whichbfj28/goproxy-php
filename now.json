@@ -1,6 +1,6 @@
 {
-  "type": "php",
-  "features": {
-    "cloud": "v2"
-  }
+  "version": 2,
+  "builds": [
+    { "src": "index.php", "use": "@now/php-server" }
+  ]
 }
